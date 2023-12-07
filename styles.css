@@ -94,22 +94,47 @@ button {
 }
 
 .quote-text {
-    width: 800px;
-    flex-grow: 0;
-    align-self: center;
-    color: #1f2937;
-    font-size: 36px;
-    font-weight: 100;
+  width: 800px;
+  flex-grow: 0;
+  align-self: center;
+  color: #1f2937;
+  font-size: 36px;
+  font-weight: 100;
 }
 
 .quote-author {
-    align-self: flex-end;
-    font-size: 24px;
-    font-weight: bold
+  align-self: flex-end;
+  font-size: 24px;
+  font-weight: bold;
 }
 
 .card {
   text-align: center;
+}
+
+.last {
+  background-color: #3882f6;
+  margin: 100px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 100px;
+  align-items: center;
+}
+
+.last button{
+    border-color: #e5e7eb;
+    border: 2px solid #e5e7eb;
+    color: #e5e7eb;
+    width: 100px;
+    margin-top: 0px;
+}
+
+.last-info {
+    font-weight: 100;
+}
+
+.last-call {
+    font-weight: bold;
 }
 
 footer {
