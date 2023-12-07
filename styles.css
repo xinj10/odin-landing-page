@@ -11,6 +11,11 @@ ul {
   gap: 16px;
 }
 
+a {
+ text-decoration: none;
+ color:inherit
+}
+
 img {
   padding: 0px;
 }
