@@ -69,3 +69,8 @@ button {
     width: 150px;
     margin-top: 20px;
 }
+
+footer {
+    text-align: center;
+    padding: 30px;
+}
