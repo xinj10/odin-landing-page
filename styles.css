@@ -12,7 +12,7 @@ ul {
 }
 
 img {
-    padding: 0px;
+  padding: 0px;
 }
 
 .hero,
@@ -44,15 +44,15 @@ header {
 }
 
 .hero {
-    padding-left: 200px;
-    padding-right: 200px;
+  padding-left: 200px;
+  padding-right: 200px;
 }
 
-.hero-main{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 100px;
-    margin-bottom: 100px;
+.hero-main {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 
 .section {
@@ -61,35 +61,58 @@ header {
 }
 
 button {
-    background-color: #3882f6;
-    font-weight: bold;
-    border: none;
-    border-radius: 12px;
-    height: 35px;
-    width: 150px;
-    margin-top: 20px;
+  background-color: #3882f6;
+  font-weight: bold;
+  border: none;
+  border-radius: 12px;
+  height: 35px;
+  width: 150px;
+  margin-top: 20px;
 }
 
 .title {
-    text-align: center;
-    color:#1f2937;
-    font-size: 36px;
-    font-weight: 900;
-    margin: 48px;
+  text-align: center;
+  color: #1f2937;
+  font-size: 36px;
+  font-weight: 900;
+  margin: 48px;
 }
 
 .info {
-    display: flex;
-    justify-content: center;
-    gap:64px;
-    padding-bottom:100px;
+  display: flex;
+  justify-content: center;
+  gap: 64px;
+  padding-bottom: 100px;
+}
+
+.quote {
+  background-color: #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 100px 300px;
+}
+
+.quote-text {
+    width: 800px;
+    flex-grow: 0;
+    align-self: center;
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 100;
+}
+
+.quote-author {
+    align-self: flex-end;
+    font-size: 24px;
+    font-weight: bold
 }
 
 .card {
-    text-align: center;
+  text-align: center;
 }
 
 footer {
-    text-align: center;
-    padding: 30px;
+  text-align: center;
+  padding: 30px;
 }
